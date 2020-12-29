@@ -74,3 +74,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
+$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
