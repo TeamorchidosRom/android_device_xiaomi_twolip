@@ -25,6 +25,9 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
+# Anx
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 DEVICE_PATH := device/xiaomi/twolip
 
 # Assert
